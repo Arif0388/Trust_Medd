@@ -14,12 +14,8 @@ import 'package:trust_medd/Doctors_Page/doctors_page.dart';
 import 'package:trust_medd/HomePage/widgets/drawer_widget.dart';
 import 'package:trust_medd/Models/category_model.dart';
 import 'package:trust_medd/Models/doctor_models.dart';
-import 'package:trust_medd/My_Appointment_Page/my_appointment_page.dart';
-import 'package:trust_medd/Profile_Page/profile_page.dart';
 
-import '../Config/images.dart';
 import '../Controller/auth_controller.dart';
-import '../Controller/search_controller.dart';
 
 class HomePage extends StatelessWidget {
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
